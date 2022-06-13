@@ -3,13 +3,13 @@ const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
 
 btn.addEventListener('click',function(){
-    let hexColor="#";
+    let differentColor="#";
 
     for(let i=0; i<6; i++){
-hexColor += hex[getRandomNumber()]
+differentColor += hex[getRandomNumber()]
 
-color.textContent=hexColor;
-document.body.style.backgroundColor=hexColor;
+color.textContent=differentColor;
+document.body.style.backgroundColor=differentColor;
 
     }
 })
